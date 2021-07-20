@@ -1,4 +1,8 @@
 window.addEventListener("load", () =>{
+const botao = document.getElementById("botao");
+
+botao.addEventListener("click", ()=>{
+
 //tempo em segundos que queremos
 let sec = 360;
 
@@ -30,4 +34,5 @@ const secpass = () => {
 };
 
 const countDown = setInterval(() => secpass(), 1000);
+});
 });
